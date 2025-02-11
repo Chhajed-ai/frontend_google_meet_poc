@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global body styling */
+body {
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+/* Form elements styling */
+input, select, textarea, button {
+  @apply w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* Button styling */
+button {
+  @apply bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700 transition;
+}
+
+/* Card and container styling */
+.card {
+  @apply bg-white shadow-lg rounded-lg p-6 max-w-lg mx-auto;
+}
+
+/* Typography improvements */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold text-gray-800;
+}
+
+/* Utility classes for spacing */
+.section {
+  @apply py-6 px-4;
+}
